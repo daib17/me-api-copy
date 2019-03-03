@@ -5,8 +5,9 @@
     "main": "app.js",
     "scripts": {
         "eslint": "eslint .",
-        "scrutinizer": "nyc --all --reporter=clover mocha test/**/*.js",
+        "test-scrutinizer": "nyc --all --reporter=clover mocha test/**/*.js",
         "report-coveralls": "nyc report --reporter=text-lcov | coveralls",
+        "report-codecov": "nyc report --reporter=lcov > coverage.lcov && codecov",
         "test": "nyc --reporter=html --reporter=text mocha 'test/**/*.js'",
         "test1": "docker-compose run node_alpine npm test",
         "test2": "docker-compose run node_8_alpine npm test",
@@ -25,6 +26,7 @@
         "sqlite3": "^4.0.6"
     },
     "devDependencies": {
+        "codecov": "^3.2.0",
         "coveralls": "^3.0.3",
         "eslint": "^5.15.0",
         "eslint-plugin-flowtype": "^3.4.2",

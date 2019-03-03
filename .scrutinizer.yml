@@ -10,7 +10,7 @@ build:
         override:
             -
                 #command: 'istanbul cover --report clover test.js'
-                command: 'npm run scrutinizer'
+                command: 'npm run test-scrutinizer'
                 coverage:
                     file: 'build/coverage/clover.xml'
                     format: 'clover'
