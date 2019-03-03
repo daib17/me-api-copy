@@ -1,10 +1,10 @@
 Ramverk2 (v2) - BTH
 =========================
 
-[![Build Status](https://travis-ci.org/daib17/me-api.svg?branch=master)](https://travis-ci.org/daib17/me-api)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/daib17/me-api/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/daib17/me-api/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/daib17/me-api/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/daib17/me-api/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/daib17/me-api/badges/build.png?b=master)](https://scrutinizer-ci.com/g/daib17/me-api/build-status/master)  
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/daib17/me-api-copy/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/daib17/me-api-copy/?branch=master) 
+[![Code Coverage](https://scrutinizer-ci.com/g/daib17/me-api-copy/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/daib17/me-api-copy/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/daib17/me-api-copy/badges/build.png?b=master)](https://scrutinizer-ci.com/g/daib17/me-api-copy/build-status/master)
+
 
 [![Coverage Status](https://coveralls.io/repos/github/daib17/me-api-copy/badge.svg?branch=master)](https://coveralls.io/github/daib17/me-api-copy?branch=master)
 [![codecov](https://codecov.io/gh/daib17/me-api-copy/branch/master/graph/badge.svg)](https://codecov.io/gh/daib17/me-api-copy)
