@@ -1,0 +1,39 @@
+{
+    "name": "me-api",
+    "version": "3.0.4",
+    "description": "Me API - Ramverk2",
+    "main": "app.js",
+    "scripts": {
+        "eslint": "eslint .",
+        "scrutinizer": "nyc --all --reporter=clover mocha test/**/*.js",
+        "report-coveralls": "nyc report --reporter=text-lcov | coveralls",
+        "test": "nyc --reporter=html --reporter=text mocha 'test/**/*.js'",
+        "test1": "docker-compose run node_alpine npm test",
+        "test2": "docker-compose run node_8_alpine npm test",
+        "test3": "docker-compose run node_6_alpine npm test",
+        "start": "node app.js",
+        "production": "NODE_ENV='production' node app.js"
+    },
+    "author": "Daniel Ibanez",
+    "license": "MIT",
+    "dependencies": {
+        "bcrypt-nodejs": "0.0.3",
+        "cors": "^2.8.5",
+        "express": "^4.16.4",
+        "jsonwebtoken": "^8.4.0",
+        "morgan": "^1.9.1",
+        "sqlite3": "^4.0.6"
+    },
+    "devDependencies": {
+        "coveralls": "^3.0.3",
+        "eslint": "^5.15.0",
+        "eslint-plugin-flowtype": "^3.4.2",
+        "eslint-plugin-import": "^2.16.0",
+        "eslint-plugin-jsx-a11y": "^6.2.1",
+        "eslint-plugin-react": "^7.12.4",
+        "eslint-plugin-vue": "^5.2.2",
+        "javascript-style-guide": "^0.9.10",
+        "mocha": "^6.0.2",
+        "nyc": "^13.3.0"
+    }
+}
